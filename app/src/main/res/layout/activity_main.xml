@@ -15,7 +15,8 @@
         <ImageView
             android:id="@+id/doe"
             android:layout_width="wrap_content"
-            android:layout_height="132dp"
+            android:layout_height="140dp"
+            android:scaleType="fitStart"
             android:src="@drawable/doe_library" />
 
         <TextView
@@ -23,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:text="Newspapers and Microforms Library at UC Berkeley"
+            android:text="@string/title"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -34,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="about"
+            android:text="@string/about_title"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#000000"
@@ -46,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Newspapers and Microforms contains the Library's principal collections of:"
+            android:text="@string/collections_title"
             android:textAlignment="center"
             android:textColor="#000000" />
 
@@ -57,7 +58,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="4dp"
-            android:text="• Newspapers, with over 100 active newsprint subscriptions, and over 900 titles archived on microfilm\n• Microforms (microfilm, microfiche, and micro-opaque formats, including 950,000 books, manuscripts, documents, and serials of significant academic and journalistic value)"
+            android:text="@string/collections"
             android:textColor="#000000" />
 
         <TextView
@@ -65,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Newspapers received on the issue date:"
+            android:text="@string/daily_collections_title"
             android:textAlignment="center"
             android:textColor="#000000" />
 
@@ -75,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"
-            android:text="• New York Times\n• San Francisco Chronicle\n• East Bay Express\n• Daily Californian"
+            android:text="@string/daily_collections"
             android:textColor="#000000" />
 
         <TextView
@@ -83,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Hours of Operation"
+            android:text="@string/hours_title"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#000000"
@@ -95,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="summer hours (05/14/2018 - 08/21/2018):"
+            android:text="@string/summer_hours_title"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#000000"
@@ -115,7 +116,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical|right"
-                android:text="Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+                android:text="@string/weekdays_summer"
                 android:textColor="#000000" />
 
             <TextView
@@ -127,7 +128,7 @@
                 android:layout_toRightOf="@id/weekdays"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="10am - 5pm\n10am - 5pm\n10am - 5pm\n10am - 5pm\n10am - 5pm\nclosed\nclosed"
+                android:text="@string/hours_summer"
                 android:textColor="#000000" />
         </LinearLayout>
 
@@ -136,7 +137,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="regular hours (08/22/2018 - 05/10/2019):"
+            android:text="@string/regular_hours_title"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#000000"
@@ -157,7 +158,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical|right"
-                android:text="Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+                android:text="@string/weekdays_regular"
                 android:textColor="#000000" />
 
             <TextView
@@ -181,7 +182,7 @@
             android:background="#E3F2FD"
             android:gravity="center_horizontal"
             android:paddingTop="10dp"
-            android:text="address/contact"
+            android:text="@string/address_contact"
             android:textAllCaps="true"
             android:textColor="#000000"
             android:textSize="14sp"
@@ -201,7 +202,7 @@
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:gravity="center_vertical"
-                android:text="40 Doe Library\nUniversity of California\nBerkeley, CA 94720-6000"
+                android:text="@string/address"
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -217,7 +218,7 @@
                     android:layout_marginRight="8dp"
                     android:autoLink="phone"
                     android:clickable="true"
-                    android:text="510-642-2975"
+                    android:text="@string/phone_number"
                     android:textColor="#000000" />
 
                 <TextView

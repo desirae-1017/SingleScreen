@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">SingleScreen</string>
+
+    <string name="title">Newspapers and Microforms Library at UC Berkeley</string>
+
+    <string name="about_title">about</string>
+
+    <string name="collections_title">Newspapers and Microforms contains the Library\'s principal collections of:</string>
+
+    <string name="collections">• Newspapers, with over 100 active newsprint subscriptions, and over 900 titles archived on microfilm\n• Microforms (microfilm, microfiche, and micro-opaque formats, including 950,000 books, manuscripts, documents, and serials of significant academic and journalistic value)"</string>
+
+    <string name="daily_collections_title">Newspapers received on the issue date:</string>
+
+    <string name="daily_collections">• New York Times\n• San Francisco Chronicle\n• East Bay Express\n• Daily Californian</string>
+
+    <string name="hours_title">Hours of Operation</string>
+
+    <string name="summer_hours_title">summer hours (05/14/2018 - 08/21/2018):</string>
+
+    <string name="weekdays_summer">Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday</string>
+
+    <string name="hours_summer">10am - 5pm\n10am - 5pm\n10am - 5pm\n10am - 5pm\n10am - 5pm\nclosed\nclosed</string>
+
+    <string name="regular_hours_title">regular hours (08/22/2018 - 05/10/2019):</string>
+
+    <string name="weekdays_regular">Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday</string>
+
+    <string name="hours_regular">10am - 7pm\n10am - 7pm\n10am - 7pm\n10am - 7pm\n10am - 7pm\nclosed\nclosed</string>
+
+    <string name="address_contact">address/contact</string>
+
+    <string name="address">40 Doe Library\nUniversity of California\nBerkeley, CA 94720-6000</string>
+
+    <string name="phone_number">510-642-2975</string>
+
+    <string name="website">http://www.lib.berkeley.edu/libraries/newspaper-microform-library</string>
+
+
 </resources>
